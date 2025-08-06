@@ -76,6 +76,77 @@ Arrays are widely used in:
 
     Searching Problems: Implementing lookup tables, frequency counting.
 
+
+# Introduction to Strings
+
+A string is a sequence of characters used to represent textual data. In C++, strings can be managed in two main ways:
+
+    C-style strings: Character arrays terminated with a null character ('\0')
+
+    C++ string class: Part of the Standard Template Library (STL), offering dynamic sizing and built-in functions for easier manipulation
+
+The string class is more versatile and commonly used in modern C++ programming.
+
+# Key Properties of Strings
+
+    Variable Length: Unlike arrays, strings can change size during runtime.
+
+    Zero-Based Indexing: The first character is at index 0.
+
+    Character-Based: Strings consist of characters (char type).
+
+    Null-Termination (C-style): C-style strings end with a special null character to indicate the end of the string.
+
+# String Operations
+
+(a) Input and Output
+
+    Input: Strings can be read from the user using standard input methods.
+
+    Output: Strings are displayed using standard output functions.
+
+(b) Searching in a String
+
+    Character Search: Each character is checked sequentially to find a match.
+
+    Substring Search: A portion of the string is searched within the larger string.
+
+(c) Counting Occurrences
+
+    Traverse the string and count how many times a specific character or substring appears.
+
+(d) Reversing a String
+
+Two common methods:
+
+    Using a Loop: Access characters from the end to the beginning.
+
+    Swapping Characters: Swap characters from both ends moving toward the center.
+
+(e) Length and Concatenation
+
+    Length: The total number of characters in the string.
+
+    Concatenation: Joining two or more strings together to form a new string.
+
+(f) Finding Minimum and Maximum Characters
+
+    Traverse the string and compare characters based on their ASCII values to find the smallest or largest character.
+
+# Applications of Strings
+
+Strings are widely used in:
+
+    Text Processing: Editing, formatting, and analyzing textual data
+
+    User Input Handling: Capturing names, addresses, and commands
+
+    Data Validation: Checking formats like email addresses or passwords
+
+    Search Engines: Matching queries and indexing content
+
+    Programming Tools: Parsing and interpreting source code
+
 # Algorithms
 
 1. Algorithm for search_and_count.cpp
