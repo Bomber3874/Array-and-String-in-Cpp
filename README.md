@@ -193,9 +193,59 @@ Steps:
 
     End the loop when all elements are printed in reverse order.
 
+3. Algorithm for str_palindrome.cpp
+
+Objective: Check whether a given string is a palindrome.
+
+Steps:
+
+    Take input from the user for a string.
+
+    Determine the length of the string and store it in a variable.
+
+    Initialize a counter variable s to zero.
+
+    Traverse the string from the beginning to the middle using a loop:
+
+        If the character at the current index matches the character at the corresponding position from the end:
+
+            Increment the counter s.
+
+        Else:
+
+            Break out of the loop.
+
+    After traversal:
+
+        If s equals half the length of the string, print that the string is a palindrome.
+
+        Else, print that the string is not a palindrome.
+
+4. Algorithm for str_reverse.cpp
+
+Objective: Reverse a given string and display it.
+
+Steps:
+
+    Take input from the user for a string.
+
+    Determine the length of the string and store it in a variable.
+
+    Traverse the string in reverse order using a loop:
+
+        Start from the last index and move toward the first.
+
+        For each index, display the character at that position.
+
+    End the program.
+
+
+
 # Conclusion
 
-This experiment successfully demonstrated essential array operations in C++. The key observations are:
+This experiment successfully demonstrated essential array and string operations in C++. The key observations are:
+    
+Arrays
 
     Arrays provide a structured way to store and manipulate data.
 
@@ -204,5 +254,18 @@ This experiment successfully demonstrated essential array operations in C++. The
     Reversing an array is useful in algorithms like palindrome checks and matrix transformations.
 
     Calculating sum, average, min, and max are fundamental for statistical and mathematical computations.
+
+Strings
+
+    Strings offer flexible handling of textual data and are more dynamic than character arrays.
+
+    Palindrome checking is a common string operation useful in data validation and pattern recognition.
+
+    Reversing a string is helpful in formatting, encryption, and algorithmic challenges.
+
+    Searching and counting characters or substrings are vital for parsing and analyzing text.
+
+    String length and concatenation are basic yet powerful tools for building and manipulating text.
+
 
 The programs executed correctly, producing the expected outputs. Understanding these operations is crucial for solving real-world programming problems efficiently.
