@@ -14,7 +14,7 @@ To understand and implement Array and String Operations in C++.
 
 # Theory
 
-1. Introduction to Arrays
+# 1. Introduction to Arrays
 
 An array is a linear data structure that stores elements of the same data type in contiguous memory locations. It allows efficient access to elements using an index. Arrays are static in C++, meaning their size must be defined at compile time.
 
